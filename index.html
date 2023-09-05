@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+
+    <div id="containerPincipal">
+        
+        <h2 id="meuNome">Kettlyn Lindlly</h2>
+        <p id="conteudoASerInserido"></p>
+        
+        <div id="containerImagensDeProjetos">
+            <a href="https://kettlynlin.github.io/BalleBot_LadinPage/"><img id="projeto1" src="./imagens/projeto_Ballle.png" alt="BalleBot"> </a>
+            <a href="https://kettlynlin.github.io/Projeto_Trends_Layout/"><img id="projeto2" src="./imagens/projeto_trends.png" alt="LayoutTrends"></a>
+            <a href="https://kettlynlin.github.io/Mandarin_API_Pokemon/"><img id="projeto3" src="./imagens/projeto_Pokemon.png" alt="Pokemons"></a>
+        </div>
+
+        <div id="containerContatos">
+            <form action="mailto:kettlynlindlly333@gmail.com" method="POST" enctype="text/plain">
+                Nome:<br>
+                <input name="nome" type="text" required><br>
+                Seu E-mail:<br>
+                <input name="email" type="email" required><br>
+                <br>
+                <textarea name="mensagem" rows="20" required></textarea><br>
+                <input type="submit" value="Enviar" id="botaoForm">
+            </form>
+        </div>
+        
+        <div id="containerMenu">
+            <ul>
+                <li><button onclick="sobreMim()">Sobre Mim</button></li>
+
+                <li><button onclick="projetos()">Projeto Recentes</button></li>
+                
+                <li><button><a href="https://github.com/KettlynLin">Github</a></button></li>
+
+                <li><button onclick="formacao()">Formação e conhecimento</button></li>
+
+                <li><button onclick="contatos()">Contato</button></li>
+
+            
+            </ul>
+        </div>
+
+    </div>
+
+    <script src="./js/acao.js"></script>
+    
+</body>
+</html>

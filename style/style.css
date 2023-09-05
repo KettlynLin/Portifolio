@@ -1,0 +1,109 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+
+body{
+    background-color: #706C6C;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+ul li {
+    list-style-type: "\2740";
+    padding-top: 75px;
+}
+
+p{
+
+    margin-left: 0px;
+    width: 750px;
+    color: white;
+    padding: 10px;
+    
+}
+
+h2{
+    margin-left: 0px;
+    width: 250px;
+    padding: 10px;
+}
+
+#containerMenu{
+    left: 200px;
+    position: absolute;
+    background-color: white;
+    width: 402px;
+    height: 100%;
+    border-radius: 20px;
+    margin-left: 943px;
+    top: 0px;
+    right: 100%;
+    border: solid black ;
+}
+
+#containerContatos{
+    display: none;
+    flex-wrap: wrap;
+    width: 750px;
+    margin-left: 0px;
+    position: relative;
+    text-align: center;
+    top: 140px;
+    left: 100px;
+}
+
+input{
+    border-radius: 20px;
+    width: 40%;
+    
+}
+
+textarea{
+    border-radius: 20px;
+    resize: none;
+    width: 40%;
+}
+
+#botaoForm{
+    border-radius: 0px;
+    width: 60px;
+}
+
+#containerImagensDeProjetos{
+    display: none;
+    flex-wrap: wrap;
+    width: 76%;
+    margin-left: 0px;
+    padding-top: 100px;
+}
+
+img{
+    border-radius: 20px;
+}
+
+button{ 
+    background-color: white;
+    border: none;
+    font-size: 20px;
+}
+
+a:link{
+   color: black;
+   text-decoration: none;
+}
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+button:hover{
+    color: palevioletred;
+}
+
+a:hover{
+    color: palevioletred;
+
+}
